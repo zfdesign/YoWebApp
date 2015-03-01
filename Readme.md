@@ -18,11 +18,17 @@ Once complete should be able to run common Grunt tasks from the Terminal/Command
 
 * ```cd ``` to the root directory and
 * Install dependencies by running ```$ npm install```
+* Follwed by ```$ bower install```
+
+Get the latest dependencies: 
+
+* Via [grunt-wiredep](https://github.com/stephenplusplus/grunt-wiredep) ```$ grunt wiredep```
+* Manually: ```$ bower install --save jquery```
 
 * To run the example locally in a browser: ```$ grunt serve```
 
 You should by now have the Application running in a Browser.
 
-* Run the tests: ``` $ grunt test```
+* Run the tests: ``` $ grunt test --test-framework=jasmine```
 
 That is all to get you started. It's free to use, but please respect the original owner [BSD License](http://opensource.org/licenses/bsd-license.php). 
