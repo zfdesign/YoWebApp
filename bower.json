@@ -1,0 +1,7 @@
+{
+  "name": "yo-boilerplate",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1"
+  }
+}
